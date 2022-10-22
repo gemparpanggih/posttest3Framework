@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.104.2">
-    <title>Signin Template · Bootstrap v5.2</title>
+    <title>Register - Listrik Biru</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="styles/signin.css" rel="stylesheet">
@@ -49,7 +49,7 @@
                 <div class="text-center">
                     <p>Sudah punya akun? <a class="text-primary" href="/login">Sign In</a></p>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">Register Behasil</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
         </form>
     </main>
   </body>

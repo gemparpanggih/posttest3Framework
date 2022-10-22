@@ -10,6 +10,13 @@ class AuthController extends Controller
 {
     //
     public function actionRegister(Request $request){
+        $email = User::where('email', $request->email)->first();
+        if($email){
+            session()->flash('error', 'Email is already exists.');
+            
+            return redirect('/register');
+        }
+        
         if($request->password == $request->confirm_password){
             User::create([
                 'name' => $request->name,
@@ -18,8 +25,9 @@ class AuthController extends Controller
             ]);
             session()->flash('success', 'Berhasil Membuat Akun!');
             
-            return redirect('/register');
-        } else{
+            return redirect('/login');
+
+        }else{
             session()->flash('error', 'Ada yang salah nich!');
             
             return redirect('/register');

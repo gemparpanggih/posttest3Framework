@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index', [
         'tarifs' => Tarif::all(),
-        'pelanggans' => Pelanggan::all() /* Ganti Line Ini */
+        'pelanggans' => Pelanggan::all()
     ]);
 })->middleware(['auth']);
 
@@ -31,7 +31,7 @@ Route::get('/dashboard', function () {
 
     return view('dashboard', [
         'tarifs' => Tarif::all(),
-        'pelanggans' => Pelanggan::all() /* Ganti Line Ini */
+        'pelanggans' => Pelanggan::all()
     ]);
 })->middleware(['auth']);
 
