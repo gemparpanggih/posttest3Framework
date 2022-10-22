@@ -49,7 +49,7 @@
                 <div class="text-center">
                     <p>Sudah punya akun? <a class="text-primary" href="/login">Sign In</a></p>
                 </div>
-                <button class="w-100 btn btn-lg btn-primary" type="submit">register Behasil</button>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Register Behasil</button>
         </form>
     </main>
   </body>
